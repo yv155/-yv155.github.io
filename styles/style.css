@@ -1,0 +1,113 @@
+@import url("http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+:root {
+    --Cloud: #cdc8c6;
+    --Shark: #1d2326;
+    --Scorpion: #5e5a5e;
+    --Beaver: #92725e;
+
+    --BabyBlue: #c3e0e5;
+    --DarkBlue: #274472;
+    --BlueGray: #5885af;
+    --MidnightBlue: #41729f;
+
+    --Cloud75: rgba(205, 200, 198, 0.75);
+    
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--Shark);
+
+    background-color: silver;
+    background: url(../images/LA-dawn.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+body {
+    display: block;
+    width: 60vw;
+    margin: 50px auto;
+    padding: 20px;
+    background: var(--Cloud75);
+
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: var(--DarkBlue);
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.tittle-caption {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin:  10px 5px auto;
+}
+
+menu{
+    margin-top: 10px;
+    margin-bottom: 90px
+}
+
+.nav {
+  font-size: 24px;
+  background-color: var(--Scorpion);
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 85%;
+  position: fixed;
+}
+
+.nav li {
+  text-align: center;
+  float: right;
+}
+
+.nav li:first-child {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav li a:hover {
+  background-color: var(--BlueGray);
+}
+
+article {
+  position: relative;
+  width: 75%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+article a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 3px solid var(--Beaver);
+}
+article a:hover{
+  border-bottom-color: var(--DarkBlue);
+  color: var(--Beaver);  
+}
