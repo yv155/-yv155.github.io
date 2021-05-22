@@ -67,7 +67,7 @@ menu{
 }
 
 
-.nav {
+menu {
   font-size: 24px;
   background-color: var(--Scorpion);
   list-style: none;
@@ -77,25 +77,26 @@ menu{
   position: fixed;
 }
 
-.nav li {
+menu li {
   text-align: center;
   float: right;
 }
 
-.nav li:first-child {
+menu li:first-child {
   float: left;
 }
 
-.nav li a {
+menu li a {
   display: block;
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
 }
 
-.nav li a:hover {
+menu li a:hover {
   background-color: var(--BlueGray);
 }
+
 main {
     margin-top: 80px;
 }
